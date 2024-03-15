@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: rgb(255, 255, 255);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+p,
+a,
+button {
+    font-family: Inter;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 1174px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 40px;
+    margin-bottom: 84px;
+    font-weight: 600;
+}
+
+.navigation a {
+    font-size: 14px;
+}
+
+.main {
+    padding-bottom: 100px;
+}
+
+.home {
+    color: rgb(242, 88, 34);
+    font-size: 14px;
+}
+
+.mainContent {}
+
+.mainContent__leftSide {}
+
+.mainContent__leftSide h1 {
+    font-size: 60px;
+    line-height: 120%;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.mainContent__leftSide p {
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.btn_left {
+    padding: 10px 10px;
+    color: rgb(256, 255, 255);
+    border-radius: 56px;
+    background: rgb(242, 88, 34);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_right {
+    background: none;
+    border: none;
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
+    margin: 100px 0;
+}
