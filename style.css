@@ -35,6 +35,18 @@ button {
     font-weight: 600;
 }
 
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation_header_menu {
+    display: flex;
+    width: 577px;
+    justify-content: space-between;
+}
+
 .navigation a {
     font-size: 14px;
 }
@@ -48,9 +60,14 @@ button {
     font-size: 14px;
 }
 
-.mainContent {}
+.mainContent {
+    display: flex;
+    gap: 73px;
+}
 
-.mainContent__leftSide {}
+.mainContent__leftSide {
+    max-width: 556px;
+}
 
 .mainContent__leftSide h1 {
     font-size: 60px;
@@ -66,8 +83,13 @@ button {
     margin-bottom: 32px;
 }
 
+.btn {
+    display: flex;
+    gap: 48px;
+}
+
 .btn_left {
-    padding: 10px 10px;
+    padding: 16px 32px;
     color: rgb(256, 255, 255);
     border-radius: 56px;
     background: rgb(242, 88, 34);
@@ -87,4 +109,9 @@ button {
 
 footer {
     margin: 100px 0;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
 }
