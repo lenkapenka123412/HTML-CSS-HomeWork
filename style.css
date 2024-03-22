@@ -51,10 +51,6 @@ button {
     font-size: 14px;
 }
 
-.main {
-    padding-bottom: 100px;
-}
-
 .home {
     color: rgb(242, 88, 34);
     font-size: 14px;
@@ -63,6 +59,7 @@ button {
 .mainContent {
     display: flex;
     gap: 73px;
+    padding-bottom: 100px;
 }
 
 .mainContent__leftSide {
@@ -107,11 +104,111 @@ button {
     cursor: pointer;
 }
 
-footer {
-    margin: 100px 0;
-}
-
 .logos {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.cardlist {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.card {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: last baseline;
+    text-align-last: left;
+}
+
+.box-shadow {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.card p {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.card a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.cards {
+    background: rgb(250, 250, 250);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card2 {
+    background: rgb(255, 255, 255);
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card2 h2 {
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.card2 p {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.card2 button {
+    margin-top: 24px;
+    border-radius: 56px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+    padding: 16px 32px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title h2 {
+    margin-bottom: 24px;
+}
+
+.title p {
+    margin-bottom: 48px;
+}
+
+.shadow {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
 }
